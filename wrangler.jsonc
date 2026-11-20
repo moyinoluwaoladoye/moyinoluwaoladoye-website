@@ -1,0 +1,12 @@
+{
+  // The Cloudflare project this deploys to. Must match the name
+  // of your Worker in the dashboard — don't change it.
+  "name": "moyinoluwaoladoye",
+
+  "compatibility_date": "2026-11-20",
+
+  // Everything inside public/ is published as the website.
+  "assets": {
+    "directory": "./public/"
+  }
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Media Feature | Moyinoluwa Oladoye</title>
+<meta name="description" content="Press coverage, featured talks and panel appearances by Dr. Moyinoluwa Oladoye on One Health, emerging disease and global research careers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="wordmark" href="index.html">Oladoye<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="grants.html">Grants</a></li>
+      <li><a href="awards.html">Awards</a></li>
+      <li><a href="media.html" aria-current="page">Media Feature</a></li>
+      <li><a href="index.html#mentorship">Mentorship</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-head">
+    <div class="wrap">
+      <a class="back" href="index.html">&larr; Back to home</a>
+      <p class="eyebrow">Recognition</p>
+      <h1>Press coverage and featured talks</h1>
+      <p class="lead">From a lightning talk on artificial intelligence and zoonotic surveillance in London to a keynote on scholarships and global research careers, Dr. Oladoye speaks to scientific, policy and student audiences about emerging disease, One Health and how young African researchers can compete anywhere in the world.</p>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <h2 class="subhead" style="margin-top:0">In the media</h2>
+      <div class="media-grid">
+        <article class="media-item">
+          <p class="eyebrow" style="color:var(--warm)">The Sun &middot; 2025</p>
+          <h3>From Ibadan to Texas: The Nigerian scientist fighting global health threats</h3>
+          <p>Profile in The Sun on the path from veterinary training in Nigeria to molecular parasitology in the United States.</p>
+          <a href="https://thesun.ng/from-ibadan-to-texas-the-nigerian-scientist-fighting-global-health-threats/" target="_blank" rel="noopener">Read the article&nbsp;&rarr;</a>
+        </article>
+      </div>
+
+      <h2 class="subhead">Featured talks</h2>
+      <div class="media-grid">
+        <article class="media-item">
+          <p class="eyebrow" style="color:var(--warm)">AIADM, London &middot; 2025</p>
+          <h3>One Health, AI and Zoonotic Surveillance</h3>
+          <p>Lightning talk at the AI, Animals and Digital Minds Conference. Dr. Oladoye makes the case for using AI to close the gap between animal disease data and public health response.</p>
+          <a href="https://www.youtube.com/watch?v=-eiDYQkjx_w" target="_blank" rel="noopener">Watch on YouTube&nbsp;&rarr;</a>
+        </article>
+        <article class="media-item">
+          <p class="eyebrow" style="color:var(--warm)">ACCELERATE &middot; 2026</p>
+          <h3>Research, Scholarships and Global Opportunities</h3>
+          <p>Featured talk at ACCELERATE 2026. Drawing on a Commonwealth Scholarship, a fully funded US PhD and an FAO global prize, Dr. Oladoye maps how students from Africa can find, win and use international research opportunities.</p>
+          <a href="https://www.youtube.com/watch?v=7MUE2zmlpLI" target="_blank" rel="noopener">Watch on YouTube&nbsp;&rarr;</a>
+        </article>
+      </div>
+
+      <h2 class="subhead">Invited talks and panels</h2>
+      <ul class="plainlist">
+        <li><strong>Panelist</strong>, Mpox Project Dissemination Conference, with the London School of Hygiene and Tropical Medicine and UK Public Health Rapid Support Team (2026)</li>
+        <li><strong>Lightning talk</strong>, &ldquo;One Health, AI and Zoonotic Surveillance&rdquo;, AI, Animals and Digital Minds Conference (2025)</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Moyinoluwa Joshua Oladoye. All rights reserved.</p>
+    <ul>
+      <li><a href="https://scholar.google.com/citations?user=c_55og8AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
+      <li><a href="https://www.researchgate.net/profile/Moyinoluwa-Oladoye?ev=prf_overview" target="_blank" rel="noopener">ResearchGate</a></li>
+      <li><a href="https://www.linkedin.com/in/moyinoluwa-oladoye/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://orcid.org/0000-0003-0300-1474" target="_blank" rel="noopener">ORCID</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var t=document.getElementById('navToggle'), l=document.getElementById('navLinks');
+  if(!t||!l) return;
+  t.addEventListener('click',function(){
+    var open=l.classList.toggle('open');
+    t.setAttribute('aria-expanded',String(open));
+    t.textContent=open?'Close':'Menu';
+  });
+  l.addEventListener('click',function(e){
+    if(e.target.tagName==='A'){l.classList.remove('open');t.setAttribute('aria-expanded','false');t.textContent='Menu';}
+  });
+})();
+</script>
+
+</body>
+</html>
