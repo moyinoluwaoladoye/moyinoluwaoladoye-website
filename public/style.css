@@ -51,7 +51,7 @@ body{
   font-family:var(--serif);font-size:18px;line-height:1.65;
   -webkit-font-smoothing:antialiased;
 }
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:var(--accent);text-underline-offset:3px}
 a:hover{color:var(--ink)}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
